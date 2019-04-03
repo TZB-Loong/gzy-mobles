@@ -1,0 +1,85 @@
+
+.normal {
+  font-family: Georgia, sans-serif;
+  text-align: center;
+  padding-top: 45px;
+}
+.userCenter{
+  background-color: #fff;
+  .userBanner{
+    padding:25px 15px;
+    background-color: #343755;
+    img{
+      display: block;
+      margin: 0 auto;
+      width: 60px;
+      height: 60px;
+    }
+    h3{
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    p{
+      color: #E2E5FF;
+    }
+  }
+  .userConst{
+    margin:15px 0;
+    :global{
+      .flex-container>{
+        color: #333757;
+        .am-flexbox>.am-flexbox-item{
+
+        &:first-child{
+          border-right: 1px solid #ddd;
+        }
+
+        >*{
+          padding:5px 15px;
+        }
+        }
+      }
+    }
+  }
+}
+.title {
+  font-size: 32px;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+
+.welcome {
+  height: 328px;
+  background: url(../../assets/yay.jpg) no-repeat center 0;
+  background-size: 388px 328px;
+}
+
+.list {
+  font-size: 22px;
+  margin-top: 30px;
+  list-style: none;
+  line-height: 32px;
+  padding: 0 20px;
+}
+
+.list code {
+  background: #f7f7f7;
+}
+.listExtra{
+  :global{
+
+    .am-list-body{
+      .am-list-item{
+        .am-list-line{
+          .am-list-extra{
+            color:red;
+            // background-color: red;
+            width: 10px;
+            -webkit-flex-basis:5%
+          }
+        }
+      }
+    }
+  }
+
+}

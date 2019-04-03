@@ -1,0 +1,96 @@
+.waitProcessList {
+    .itemAvatar {
+        color: #fff;
+        font-size: 22px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+    }
+}
+
+.waitProcess {
+    :global {
+        .am-accordion {
+            border-top: 0px solid;
+        }
+        .am-list-item .am-list-line .am-list-extra {
+            white-space: normal;
+            word-break:break-all;
+            flex-basis: 60%;
+        } 
+    }
+}
+.payApprovalDetails {
+    :global {
+        .am-accordion {
+            border-top: 0px solid;
+        }
+        .am-list-item .am-list-line .am-list-extra {
+            white-space: normal;
+            word-break:break-all;
+            flex-basis: 60%;
+        }
+    }
+}
+
+.initiateApproval {}
+
+.payApproval {
+    :global {
+        .am-list-item .am-input-control .fake-input-container .fake-input.fake-input-disabled{
+            color: #000;
+        }
+        .am-accordion {
+            border-top: 0px solid;
+        }
+        .am-list-body {
+            border: 0
+        } // picker
+        .am-list-item .am-list-line .am-list-content {
+            color: #666;
+            font-size: 15px;
+        } // InputItem label
+        .am-list-item .am-input-label {
+            color: #666;
+            font-size: 15px;
+        }
+        .am-list-item .am-list-line .am-list-extra {
+            white-space: normal;
+            word-break:break-all;
+            flex-basis: 60%;
+        } // 金额
+        .am-list-item .am-input-control {
+            font-size: 15px;
+        }
+        .am-list-item .am-input-control .fake-input-container .fake-input {
+            font-size: 15px;
+        } // input
+        .am-list-item .am-input-control input {
+            text-align: right;
+            font-size: 15px;
+        }
+        .am-textarea-label {
+            font-size: 15px;
+            color: #666;
+        }
+        .am-textarea-control textarea {
+            font-size: 15px;
+        }
+        .am-list-item .am-input-label.am-input-label-5 {
+            width: 105px;
+        }
+    }
+    .requiredMark {
+        color: #EE7356;
+        font-size: 15px;
+        padding-right: 4px;
+        font-weight: 900;
+    }
+    .error {
+        padding-left: 10px;
+        color: red;
+      line-height: 30px;
+    }
+}

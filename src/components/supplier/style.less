@@ -1,0 +1,228 @@
+.listExtra{
+  position:fixed;
+  width: 100%;
+  z-index: 999;
+}
+.searchList{
+  box-shadow:1px 1px 1px #E0E0E0;
+  :global{
+    .am-list-body{
+      border: 0 !important;
+    }
+    .am-list-line {
+      border-bottom: 0 !important;
+  }
+  }
+}
+.listExtra_two{
+  :global{
+    .am-list-body{
+      background-color: red;
+    }
+  }
+}
+.textStyle{
+  font-size: 15px;
+  color: #666;
+  a{
+  //  color: #666;
+  }
+}
+.textOverflow{
+  font-size: 15px;
+  color: #666;
+  // display: inline-block;
+  // line-height: 35px;
+  width:100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.List{
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 20px;
+  align-items:baseline;
+}
+.textColor{
+  color: #323232
+}
+.litsSpan{
+    display: inline-block;
+    padding: 5px 10px;
+    // width: 60px;
+    // height: 20px;
+    background-color: #DBE7FE;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 2px 5px;
+}
+
+.listTitleSpan{
+  display: inline-block;
+  margin: 2px 0px;
+}
+
+.listPull{
+  background-color: #0A0A0A;
+    height: 100vh;
+    position: fle;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity:0.5
+}
+.listTitlePull{
+  position: absolute;
+  width: 100%;
+  position:fixed;
+  width: 100%;
+  z-index: 99;
+}
+.addIcon{
+  position: absolute;
+    right: 14px;
+    top: 2px;
+    font-size: 28px;
+    color: #666666;
+    a{
+      color: #666666;
+    }
+}
+
+.pullItemText{
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid #E8E8E8;
+  text-align: center;
+  line-height: 30px;
+  color: #666666;
+  margin: 5px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.pullSelected{
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid #4B85F8;
+  text-align: center;
+  line-height: 30px;
+  color: #4B85F8;
+  margin: 5px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.payApproval {
+  textarea{
+    text-align: right;
+  }
+  :global {
+      .am-list-body {
+          border: 0
+      } // picker
+      .am-list-item .am-list-line .am-list-content {
+          color: #666;
+          font-size: 15px;
+      } // InputItem label
+      .am-list-item .am-input-label {
+          color: #666;
+          font-size: 15px;
+      } // 金额
+      .am-list-item .am-input-control {
+          font-size: 15px;
+      }
+      .am-list-item .am-input-control .fake-input-container .fake-input{
+          font-size: 15px;
+      } // input
+      .am-list-item .am-input-control input {
+          text-align: right;
+          font-size: 15px;
+      }
+      .am-textarea-label {
+          font-size: 15px;
+          color: #666;
+      }
+      .am-textarea-control textarea {
+          font-size: 15px;
+      }
+      .am-list-item .am-input-label.am-input-label-5 {
+          width: 105px;
+      }
+  }
+  .requiredMark {
+      color: #EE7356;
+      font-size: 15px;
+      padding-right: 4px;
+      font-weight: 900;
+  }
+  .error {
+      padding-left: 10px;
+      color: red
+  }
+}
+
+// .textTarea{
+//   textarea{
+//     text-align: left;
+//   }
+// }
+.deleteIcon{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  color: #ffffff;
+  background-color: #EE7356;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 16px;
+}
+
+.myList{
+  div{
+    line-height: 35px;
+    color:'#666666';
+  }
+  :global{
+    .am-list-body{
+      border: 0
+    }
+  }
+}
+
+.searchDiv{
+  // width: 90%;
+  border-radius: 20px;
+  background-color:rgba(245,245,245,1);
+  // width: 300px;
+  width: 90%;
+  line-height: 30px;
+  input{
+    background-color:rgba(245,245,245,1);
+    height: 36px;
+    width: 80%;
+    border: 0;
+    flex: 1;
+    font-size: 16px;
+    color: #666;
+  }
+  span{
+    display: inline-block;
+    margin: 0px 10px;
+  }
+}
